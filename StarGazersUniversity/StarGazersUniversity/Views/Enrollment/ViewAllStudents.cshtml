@@ -1,1 +1,35 @@
-﻿
+﻿@model List<StarGazersUniversity.Models.Student>
+
+@if (!Model.Any())
+{
+    <p>We don't have any students enrolled.</p>
+}
+else
+{
+    <h2> Students </h2>
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Student</th>
+                <th></th>
+                <th>Birth Date</th>
+                <th>City</th>
+                <th>Course One</th>
+                <th>Course Two</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var student in Model)
+            {
+                <tr>
+                    <td>@student.FirstName</td>
+                    <td>@student.LastName</td>
+                    <td>@student.DOB</td>
+                    <td>@student.City</td>
+                    <td>@student.ClassOne</td>
+                    <td>@student.ClassTwo</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}

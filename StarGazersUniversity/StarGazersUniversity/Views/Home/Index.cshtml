@@ -14,15 +14,23 @@
     <input maxlength="15" name="LastName" /> <br />
 
     <label for="Dob">Date Of Birth</label>
-    <input maxlength="20" name="Dob" /> <br />
+    <input maxlength="20" type="datetime-local" name="Dob" /> <br />
 
     <label for="City">Enter City</label>
     <input maxlength="15" name="City" /> <br />
     
     <select>
-        <option value="" disabled="disabled" selected="selected">Please select a school</option>
-        <option value="1">Sky Scripters</option>
-        <option value="2">Gazer Beam</option>
+        <option value="" disabled="disabled" selected="selected">Please select a coruse</option>
+        <option for="ClassOne" value="1">Sky Scripters</option>
+        <option for="ClassTwo" value="2">Gazer Beam</option>
+    </select>
+    
+    <br/>
+
+    <select>
+        <option value="" disabled="disabled" selected="selected">Please select a second course</option>
+        <option for="ClassOne" value="1">Sky Scripters</option>
+        <option for="ClassTwo" value="2">Gazer Beam</option>
     </select>
 
     <button type="submit">Enroll!</button>
