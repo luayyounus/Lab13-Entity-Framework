@@ -11,9 +11,10 @@ using System;
 namespace StarGazersUniversity.Migrations
 {
     [DbContext(typeof(StudentDbContext))]
-    partial class StudentDbContextModelSnapshot : ModelSnapshot
+    [Migration("20180114233833_StudentModelRemovedClassTwo")]
+    partial class StudentModelRemovedClassTwo
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

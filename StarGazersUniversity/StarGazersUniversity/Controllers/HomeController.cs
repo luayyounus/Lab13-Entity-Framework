@@ -34,12 +34,14 @@ namespace StarGazersUniversity.Controllers
         [HttpPost]
         public IActionResult Index(Student student)
         {
-            if (!String.IsNullOrEmpty(student.FirstName))
+            if (!ModelState.IsValid)
             {
-                _context.Add(student);
-                _context.SaveChanges();
+                return View(student);
             }
-            
+
+            _context.Add(student);
+            _context.SaveChanges();
+
             return RedirectToAction("ViewAllStudents", "Enrollment");
         }
     }
