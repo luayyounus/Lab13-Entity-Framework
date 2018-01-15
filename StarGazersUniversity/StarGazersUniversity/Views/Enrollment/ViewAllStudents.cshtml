@@ -6,7 +6,24 @@
 }
 else
 {
-    <h2> Students </h2>
+    <h2> All Students enrolled in the class @Model[0].Class</h2>
+
+    <form method="post">
+        <legend>Filter By</legend>
+        <label for="Filter">Student</label>
+        <input maxlength="15" name="Filter" /> <br />
+
+        <select name="Class" width="10">
+            <option value="" disabled="disabled" selected="selected">Select a class</option>
+            <option value="Sky Scripters">Sky Scripters</option>
+            <option value="Wonder Code">Wonder Code</option>
+            <option value="Super Phase">Super Phase</option>
+            <option value="Gazer Beam">Gazer Beam</option>
+        </select>
+
+        <button type="submit">Go!</button>
+    </form>
+
     <table class="table table-bordered">
         <thead>
             <tr>
@@ -14,7 +31,6 @@ else
                 <th>Last Name</th>
                 <th>Birth Date</th>
                 <th>City</th>
-                <th>Class</th>
             </tr>
         </thead>
         <tbody>
@@ -25,7 +41,6 @@ else
                     <td>@student.LastName</td>
                     <td>@student.DOB</td>
                     <td>@student.City</td>
-                    <td>@student.Class</td>
                 </tr>
             }
         </tbody>
