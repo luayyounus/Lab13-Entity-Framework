@@ -29,7 +29,56 @@ namespace StarGazersUniversity.Controllers
         public IActionResult ViewAllStudents()
         {
             List<Student> students = _context.Students.ToList();
+
             return View(students);
+        }
+
+
+        [HttpGet]
+        public IActionResult FilteredStudentsByName(string studentName)
+        {
+            List<Student> students = new List<Student>();
+            if (!(String.IsNullOrEmpty(studentName)))
+            {
+                // Filtering students based on Student name
+                students = _context.Students.Where(s => s.FirstName.ToLower() == studentName.ToLower())
+                                                          .ToList();
+                return View(students);
+            }
+            return View(students);
+        }
+
+        [HttpPost]
+        public IActionResult FilterStudentsByName(string studentName)
+        {
+            if (!ModelState.IsValid)
+                return RedirectToAction("ViewAllStudents");
+
+            return RedirectToAction("FilteredStudentsByName", new { studentName });
+        }
+
+        [HttpGet]
+        public IActionResult FilteredStudentsByClass(string className)
+        {
+            List<Student> students = new List<Student>();
+            if (!(String.IsNullOrEmpty(className)))
+            {
+                // Filtering students based on Class name
+                students = _context.Students.Where(s => s.Class.ToLower() == className.ToLower())
+                                                          .ToList();
+                return View(students);
+            }
+
+            return View(students);
+        }
+
+        [HttpPost]
+        public IActionResult FilterStudentsByClass(string className)
+        {
+            if (!ModelState.IsValid)
+                return RedirectToAction("ViewAllStudents");
+
+            return RedirectToAction("FilteredStudentsByClass", new { className });
         }
     }
 }
