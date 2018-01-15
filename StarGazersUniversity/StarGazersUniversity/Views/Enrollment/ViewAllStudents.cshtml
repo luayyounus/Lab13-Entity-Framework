@@ -12,7 +12,6 @@ else
 
     <div id="filter-forms">
         <form asp-controller="Enrollment" asp-action="FilterStudentsByName" method="post">
-            @*<legend>Filter By</legend>*@
             <label for="studentName">Student Name</label>
             <input maxlength="15" name="studentName" />
             <button type="submit">Go!</button>
@@ -30,6 +29,14 @@ else
             <button type="submit">Go!</button>
         </form>
 
+    </div>
+
+    <div>
+        <p>Sort By</p>
+        <ul>
+            <li><a asp-action="ViewAllStudents" asp-route-sortType="FN">First Name</a></li>
+            <li><a asp-action="ViewAllStudents" asp-route-sortType="LN">Last Name</a></li>
+        </ul>
     </div>
 
     <table class="table table-bordered">

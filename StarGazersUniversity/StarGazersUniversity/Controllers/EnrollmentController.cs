@@ -26,13 +26,26 @@ namespace StarGazersUniversity.Controllers
         }
 
         [HttpGet]
-        public IActionResult ViewAllStudents()
+        public IActionResult ViewAllStudents(string sortType)
         {
+
             List<Student> students = _context.Students.ToList();
+
+            if (!String.IsNullOrEmpty(sortType))
+            {
+                switch (sortType)
+                {
+                    case "FN":
+                        students = students.OrderBy(s => s.FirstName).ToList();
+                        break;
+                    case "LN":
+                        students = students.OrderBy(s => s.LastName).ToList();
+                        break;
+                }
+            }
 
             return View(students);
         }
-
 
         [HttpGet]
         public IActionResult FilteredStudentsByName(string studentName)
@@ -75,6 +88,7 @@ namespace StarGazersUniversity.Controllers
         [HttpPost]
         public IActionResult FilterStudentsByClass(string className)
         {
+            // Check if user input is valid
             if (!ModelState.IsValid)
                 return RedirectToAction("ViewAllStudents");
 
