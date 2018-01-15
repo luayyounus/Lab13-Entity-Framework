@@ -1,0 +1,11 @@
+C:\Users\Luay\Dropbox\401dotNet\Projects\Labs\Lab13-Entity-Framework\StarGazersUniversity\StarGazersUniversity\bin\Debug\netcoreapp2.0\StarGazersUniversity.deps.json
+C:\Users\Luay\Dropbox\401dotNet\Projects\Labs\Lab13-Entity-Framework\StarGazersUniversity\StarGazersUniversity\bin\Debug\netcoreapp2.0\StarGazersUniversity.runtimeconfig.json
+C:\Users\Luay\Dropbox\401dotNet\Projects\Labs\Lab13-Entity-Framework\StarGazersUniversity\StarGazersUniversity\bin\Debug\netcoreapp2.0\StarGazersUniversity.runtimeconfig.dev.json
+C:\Users\Luay\Dropbox\401dotNet\Projects\Labs\Lab13-Entity-Framework\StarGazersUniversity\StarGazersUniversity\bin\Debug\netcoreapp2.0\StarGazersUniversity.dll
+C:\Users\Luay\Dropbox\401dotNet\Projects\Labs\Lab13-Entity-Framework\StarGazersUniversity\StarGazersUniversity\obj\Debug\netcoreapp2.0\StarGazersUniversity.csprojResolveAssemblyReference.cache
+C:\Users\Luay\Dropbox\401dotNet\Projects\Labs\Lab13-Entity-Framework\StarGazersUniversity\StarGazersUniversity\obj\Debug\netcoreapp2.0\StarGazersUniversity.csproj.CoreCompileInputs.cache
+C:\Users\Luay\Dropbox\401dotNet\Projects\Labs\Lab13-Entity-Framework\StarGazersUniversity\StarGazersUniversity\obj\Debug\netcoreapp2.0\StarGazersUniversity.AssemblyInfoInputs.cache
+C:\Users\Luay\Dropbox\401dotNet\Projects\Labs\Lab13-Entity-Framework\StarGazersUniversity\StarGazersUniversity\obj\Debug\netcoreapp2.0\StarGazersUniversity.AssemblyInfo.cs
+C:\Users\Luay\Dropbox\401dotNet\Projects\Labs\Lab13-Entity-Framework\StarGazersUniversity\StarGazersUniversity\bin\Debug\netcoreapp2.0\StarGazersUniversity.pdb
+C:\Users\Luay\Dropbox\401dotNet\Projects\Labs\Lab13-Entity-Framework\StarGazersUniversity\StarGazersUniversity\obj\Debug\netcoreapp2.0\StarGazersUniversity.dll
+C:\Users\Luay\Dropbox\401dotNet\Projects\Labs\Lab13-Entity-Framework\StarGazersUniversity\StarGazersUniversity\obj\Debug\netcoreapp2.0\StarGazersUniversity.pdb

@@ -1,0 +1,36 @@
+﻿@model List<StarGazersUniversity.Models.Student>
+
+<link href="~/Style.css" rel="stylesheet" />
+
+
+@if (Model.Count == 0)
+{
+    <h1>No class found by this class name.</h1>
+    <a asp-controller="Enrollment" asp-action="ViewAllStudents">Go Back</a>
+}
+else
+{
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Class</th>
+                <th>Birth Date</th>
+                <th>City</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var student in Model)
+            {
+                <tr>
+                    <td>@student.FirstName</td>
+                    <td>@student.LastName</td>
+                    <td>@student.Class</td>
+                    <td>@student.DOB</td>
+                    <td>@student.City</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}

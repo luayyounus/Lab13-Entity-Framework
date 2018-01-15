@@ -1,0 +1,29 @@
+﻿<link href="~/Style.css" rel="stylesheet" />
+
+<h1> Welcome to Star Gazers University!</h1>
+
+<h3>Please fill in the form to enroll to one of our classes.</h3>
+
+<form method="post">
+    <label for="FirstName">First Name</label>
+    <input maxlength="15" name="FirstName" /> <br />
+
+    <label for="LastName">Last Name</label>
+    <input maxlength="15" name="LastName" /> <br />
+
+    <label for="Dob">Date Of Birth</label>
+    <input maxlength="20" type="datetime-local" name="Dob" /> <br />
+
+    <label for="City">Enter City</label>
+    <input maxlength="15" name="City" /> <br />
+
+    <select name="Class" width="10">
+        <option value="" disabled="disabled" selected="selected">Select a class</option>
+        <option value="Sky Scripters">Sky Scripters</option>
+        <option value="Wonder Code">Wonder Code</option>
+        <option value="Super Phase">Super Phase</option>
+        <option value="Gazer Beam">Gazer Beam</option>
+    </select>
+
+    <button type="submit">Enroll!</button>
+</form>

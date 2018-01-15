@@ -1,0 +1,65 @@
+﻿@model List<StarGazersUniversity.Models.Student>
+
+<link href="~/Style.css" rel="stylesheet" />
+
+@if (!Model.Any())
+{
+    <p>We don't have any students enrolled.</p>
+}
+else
+{
+    <p> Filter by: </p>
+
+    <div id="filter-forms">
+        <form asp-controller="Enrollment" asp-action="FilterStudentsByName" method="post">
+            <label for="studentName">Student Name</label>
+            <input maxlength="15" name="studentName" />
+            <button type="submit">Go!</button>
+        </form>
+
+        <form asp-controller="Enrollment" asp-action="FilterStudentsByClass" method="post">
+            <label for="className">Class Name</label>
+            <select name="className">
+                <option value="" disabled="disabled" selected="selected">Select a class</option>
+                <option value="Sky Scripters">Sky Scripters</option>
+                <option value="Wonder Code">Wonder Code</option>
+                <option value="Super Phase">Super Phase</option>
+                <option value="Gazer Beam">Gazer Beam</option>
+            </select>
+            <button type="submit">Go!</button>
+        </form>
+
+    </div>
+
+    <div>
+        <p>Sort By</p>
+        <ul>
+            <li><a asp-action="ViewAllStudents" asp-route-sortType="FN">First Name</a></li>
+            <li><a asp-action="ViewAllStudents" asp-route-sortType="LN">Last Name</a></li>
+        </ul>
+    </div>
+
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Class</th>
+                <th>Birth Date</th>
+                <th>City</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var student in Model)
+            {
+                <tr>
+                    <td>@student.FirstName</td>
+                    <td>@student.LastName</td>
+                    <td>@student.Class</td>
+                    <td>@student.DOB</td>
+                    <td>@student.City</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}

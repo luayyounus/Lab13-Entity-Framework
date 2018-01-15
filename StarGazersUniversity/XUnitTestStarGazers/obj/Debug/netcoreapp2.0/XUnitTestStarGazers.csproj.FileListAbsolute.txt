@@ -1,0 +1,16 @@
+C:\Users\Luay\Dropbox\401dotNet\Projects\Labs\Lab13-Entity-Framework\StarGazersUniversity\XUnitTestStarGazers\bin\Debug\netcoreapp2.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Users\Luay\Dropbox\401dotNet\Projects\Labs\Lab13-Entity-Framework\StarGazersUniversity\XUnitTestStarGazers\bin\Debug\netcoreapp2.0\xunit.runner.reporters.netcoreapp10.dll
+C:\Users\Luay\Dropbox\401dotNet\Projects\Labs\Lab13-Entity-Framework\StarGazersUniversity\XUnitTestStarGazers\bin\Debug\netcoreapp2.0\xunit.runner.utility.netcoreapp10.dll
+C:\Users\Luay\Dropbox\401dotNet\Projects\Labs\Lab13-Entity-Framework\StarGazersUniversity\XUnitTestStarGazers\bin\Debug\netcoreapp2.0\XUnitTestStarGazers.deps.json
+C:\Users\Luay\Dropbox\401dotNet\Projects\Labs\Lab13-Entity-Framework\StarGazersUniversity\XUnitTestStarGazers\bin\Debug\netcoreapp2.0\XUnitTestStarGazers.runtimeconfig.json
+C:\Users\Luay\Dropbox\401dotNet\Projects\Labs\Lab13-Entity-Framework\StarGazersUniversity\XUnitTestStarGazers\bin\Debug\netcoreapp2.0\XUnitTestStarGazers.runtimeconfig.dev.json
+C:\Users\Luay\Dropbox\401dotNet\Projects\Labs\Lab13-Entity-Framework\StarGazersUniversity\XUnitTestStarGazers\bin\Debug\netcoreapp2.0\XUnitTestStarGazers.dll
+C:\Users\Luay\Dropbox\401dotNet\Projects\Labs\Lab13-Entity-Framework\StarGazersUniversity\XUnitTestStarGazers\bin\Debug\netcoreapp2.0\StarGazersUniversity.dll
+C:\Users\Luay\Dropbox\401dotNet\Projects\Labs\Lab13-Entity-Framework\StarGazersUniversity\XUnitTestStarGazers\bin\Debug\netcoreapp2.0\StarGazersUniversity.pdb
+C:\Users\Luay\Dropbox\401dotNet\Projects\Labs\Lab13-Entity-Framework\StarGazersUniversity\XUnitTestStarGazers\obj\Debug\netcoreapp2.0\XUnitTestStarGazers.csprojResolveAssemblyReference.cache
+C:\Users\Luay\Dropbox\401dotNet\Projects\Labs\Lab13-Entity-Framework\StarGazersUniversity\XUnitTestStarGazers\obj\Debug\netcoreapp2.0\XUnitTestStarGazers.csproj.CoreCompileInputs.cache
+C:\Users\Luay\Dropbox\401dotNet\Projects\Labs\Lab13-Entity-Framework\StarGazersUniversity\XUnitTestStarGazers\obj\Debug\netcoreapp2.0\XUnitTestStarGazers.AssemblyInfoInputs.cache
+C:\Users\Luay\Dropbox\401dotNet\Projects\Labs\Lab13-Entity-Framework\StarGazersUniversity\XUnitTestStarGazers\obj\Debug\netcoreapp2.0\XUnitTestStarGazers.AssemblyInfo.cs
+C:\Users\Luay\Dropbox\401dotNet\Projects\Labs\Lab13-Entity-Framework\StarGazersUniversity\XUnitTestStarGazers\bin\Debug\netcoreapp2.0\XUnitTestStarGazers.pdb
+C:\Users\Luay\Dropbox\401dotNet\Projects\Labs\Lab13-Entity-Framework\StarGazersUniversity\XUnitTestStarGazers\obj\Debug\netcoreapp2.0\XUnitTestStarGazers.dll
+C:\Users\Luay\Dropbox\401dotNet\Projects\Labs\Lab13-Entity-Framework\StarGazersUniversity\XUnitTestStarGazers\obj\Debug\netcoreapp2.0\XUnitTestStarGazers.pdb
